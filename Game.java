@@ -33,7 +33,7 @@ public class Game {
             //prints intial question
             /* System.out.println(currentPlayer + ", how many pieces would you like to grab?");
             grab = Integer.parseInt(sc.nextLine()); */
-            System.out.println("PIeces: " + Board.getPieces());
+            System.out.println("Pieces: " + Board.getPieces());
             //player 1
             if (currentPlayer == 1) {
 
@@ -60,7 +60,7 @@ public class Game {
                         Game nim = new Game(); 
                         nim.play();
                     } else {
-                        //System.exit(0);
+                        System.exit(0);
                     }
                 }            
     
@@ -84,7 +84,7 @@ public class Game {
                         Game nim = new Game(); 
                         nim.play();
                     } else {
-                     //   System.exit(1);
+                       System.exit(1);
                     }
                 }
             }
