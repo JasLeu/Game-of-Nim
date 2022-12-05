@@ -10,7 +10,7 @@ public class Player {
         name = sc.nextLine();
     }
 
-    public void setPoints(int points) {
+    public void setPoints() {
         points++;
     }
     /*** Getters */
@@ -20,5 +20,9 @@ public class Player {
 
     public int getPoints() {
         return points;
+    }
+
+    public String toString() {
+        return name;
     }
 }
