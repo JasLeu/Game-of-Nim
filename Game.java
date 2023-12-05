@@ -60,7 +60,7 @@ public class Game {
                     do {
                         System.out.println(currentPlayer + ", how many pieces would you like to grab?");
                         grab = Integer.parseInt(sc.nextLine());
-                    } while (grab > Board.getPieces()/2);
+                    } while (grab > Board.getPieces()/2 || grab < 1);
                     Board.updateTotal(grab);
                     currentPlayer = p2;
 
